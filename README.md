@@ -54,7 +54,7 @@ Welcome to the Blogging Platform! This is a feature-rich web application that al
 
     ## Setup and Installation
     * Visit this link for use this Blogging Platform👇
-       http://3.110.37.194:8080/swagger-ui/index.html#/
+       http://3.110.37.194:8080/swagger-ui/index.html#
     
 
     ## Conclusion
