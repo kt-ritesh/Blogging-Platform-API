@@ -35,7 +35,6 @@ Welcome to the Blogging Platform! This is a feature-rich web application that al
 
     ## API Endpoints
     1. @PostMapping("user/signup") :- Sign up new User.
-
     2. @PostMapping("user/signin") :- Login existing user help userName and password.
     3. @DeleteMapping("user/sign-out") :- Sign out login user.
     4. @PostMapping("post") :- Create a new post.
