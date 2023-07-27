@@ -35,22 +35,22 @@ Welcome to the Blogging Platform! This is a feature-rich web application that al
 
     ## API Endpoints
     1. @PostMapping("user/signup") :- Sign up new User.
-    2. @PostMapping("user/signin") :- Login existing user help userName and password.
-    3. @DeleteMapping("user/sign-out") :- Sign out login user.
-    4. @PostMapping("post") :- Create a new post.
-    5. @DeleteMapping("post/delete") :- Delete a post, \
-    Note:- Only post owner can delete post.
-    6. @PutMapping("post/update") :- Update post contains,\
-    Note:- Only post owner can update post.
-    7. @GetMapping("post/{title}") :- Get specific post by title.
-    8. @PostMapping("comment") :- Comment on after login.
-    9. @DeleteMapping("comment/remove") :- Remove comment by comment,\
-    Note:- Only post owner and commenter can delete comment.
-    10. @GetMapping("comment/count/{postId}") :- Get number of comment.
-    11. @GetMapping("comments/{postId}") :- Get all comments.
-    12. @PostMapping("follow") :- Follow another user.
-    13. @DeleteMapping("unfollow") :- Unfollow user if you following already.
-    14. @GetMapping("follower/count/{userId}") :- Get all follower count.
+    3. @PostMapping("user/signin") :- Login existing user help userName and password.
+    4. @DeleteMapping("user/sign-out") :- Sign out login user.
+    5. @PostMapping("post") :- Create a new post.
+    6. @DeleteMapping("post/delete") :- Delete a post, \
+             Note:- Only post owner can delete post.
+    7. @PutMapping("post/update") :- Update post contains,\
+             Note:- Only post owner can update post.
+    8. @GetMapping("post/{title}") :- Get specific post by title.
+    9. @PostMapping("comment") :- Comment on after login.
+    10. @DeleteMapping("comment/remove") :- Remove comment by comment,\
+             Note:- Only post owner and commenter can delete comment.
+    11. @GetMapping("comment/count/{postId}") :- Get number of comment.
+    12. @GetMapping("comments/{postId}") :- Get all comments.
+    13. @PostMapping("follow") :- Follow another user.
+    14. @DeleteMapping("unfollow") :- Unfollow user if you following already.
+    15. @GetMapping("follower/count/{userId}") :- Get all follower count.
 
     ## Setup and Installation
     * Visit this link for use this Blogging Platform👇
