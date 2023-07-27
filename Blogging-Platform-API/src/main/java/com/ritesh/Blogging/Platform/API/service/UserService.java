@@ -105,7 +105,7 @@ public class UserService {
                 authenticationService.saveAuthToken(authToken);
 
 
-                return authToken.getTokenValue();
+                return "Use this token for perform any operation \n"+authToken.getTokenValue();
             }else {
                 return  "Invalid credentials....\n please check your user name and password....";
             }
