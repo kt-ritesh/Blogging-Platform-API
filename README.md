@@ -53,8 +53,8 @@ Welcome to the Blogging Platform! This is a feature-rich web application that al
     15. @GetMapping("follower/count/{userId}") :- Get all follower count.
 
     ## Setup and Installation
-    * Visit this link for use this Blogging Platform👇
-       http://3.109.124.43:8080/swagger-ui/index.html#
+    * Visit this link for use this Blogging Platform👇\
+       http://13.233.246.122:8080/swagger-ui/index.html#
     
 
     ## Conclusion
